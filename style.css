@@ -461,12 +461,32 @@ font-size: 43%;
 }
 }
 
-@media (max-width:550px) {
+@media (max-width:540px) {
 html{
     font-size: 40%;
   }
+.cards{
+  width: 15rem;
+  /* padding: 0.2rem; */
+
+}
+.cards h3{
+  letter-spacing: 0.0rem;
+}
 .navbar-link{
   margin: 0 0.7rem;
+}
+}
+@media(max-width:360px){
+  html{
+    font-size: 35%;
+  }
+.cards{
+  width: 15rem;
+}
+.cards h3{
+  font-size: 40%;
+
 }
 }
 
